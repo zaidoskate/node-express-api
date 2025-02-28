@@ -18,5 +18,5 @@ app.post('/mensaje', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Servidor escuchando en http://localhost:${port}`);
+    console.log(`Servidor escuchando en http://localhost:${port}, di hola`); //linea modificada por daniel
 });
