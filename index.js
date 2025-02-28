@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     res.send('Bienvenido a la API te dice Tlapa');
-    //Comentario de tlapa
+    //Comentario de tlapa 2
 });
 
 app.get('/saludo/:nombre', (req, res) => {
