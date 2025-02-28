@@ -10,7 +10,7 @@ res.send('Bienvenido a la API');
 });
 
 app.get('/saludo/:nombre', (req, res) => {
-    res.send(`Hola, ${req.params.nombre}!`);
+    res.send(`Hola, ${req.params.nombre}!, como estas hoy?`); //linea modificada por zaid
 });
 
 app.post('/mensaje', (req, res) => {
